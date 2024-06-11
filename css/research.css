@@ -1,0 +1,11 @@
+div.upgTable > div{
+    align-items: normal;
+}
+div.upgTable > div.upgRow > div{
+    margin: unset;
+    /* text-align: left; */
+}
+div.upgTable > div.upgCol > div > div.upgTable > div.upgCol > div{
+    margin: unset;
+    text-align: left;
+}

@@ -1,0 +1,20 @@
+.leftArrow{
+    transition-duration: 1s;
+    font-size: 12px;
+    margin: -3px;
+    display: inline-block;
+}
+.rightArrow{
+    transition-duration: 1s;
+    font-size: 12px;
+    margin: -3px;
+    display: inline-block;
+}
+span.shrink > table > span > button > span > span.leftArrow{
+    transform: rotate(-90deg);
+    margin: -2px;
+}
+span.shrink > table > span > button > span > span.rightArrow{
+    transform: rotate(90deg);
+    margin: -2px;
+}
